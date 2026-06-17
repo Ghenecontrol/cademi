@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Cademi</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@400;600;700;800&display=swap');
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue: #2563EB;
+    --blue-light: #3B82F6;
+    --blue-dark: #1D4ED8;
+    --blue-glow: rgba(37,99,235,0.35);
+    --navy: #0A0F1E;
+    --surface: #111827;
+    --surface2: #1A2235;
+    --border: rgba(255,255,255,0.08);
+    --border-hover: rgba(37,99,235,0.5);
+    --text-primary: #F1F5F9;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+  }
+
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; color: var(--text-primary); background: var(--navy); line-height: 1.7; }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--surface); }
+  ::-webkit-scrollbar-thumb { background: var(--blue); border-radius: 3px; }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(10,15,30,0.92);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 3rem; height: 68px;
+    display: flex; align-items: center; justify-content: space-between; gap: 1.5rem;
+  }
+
+  .logo { display: flex; align-items: center; gap: 0.55rem; text-decoration: none; flex-shrink: 0; }
+  .logo-icon { width: 38px; height: 38px; flex-shrink: 0; }
+  .logo-wordmark { font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 800; color: var(--text-primary); letter-spacing: -0.02em; }
+  .logo-wordmark span { color: var(--blue-light); }
+
+  .btn-back {
+    background: var(--blue); color: white; border: none; cursor: pointer;
+    font-family: inherit; font-size: 0.88rem; font-weight: 600;
+    padding: 0.62rem 1.3rem; border-radius: 8px; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    transition: background 0.2s, transform 0.15s;
+    box-shadow: 0 0 20px var(--blue-glow);
+  }
+  .btn-back:hover { background: var(--blue-dark); transform: translateY(-1px); }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 130px 1.5rem 100px;
+  }
+
+  .page-header { margin-bottom: 3rem; }
+  .page-header .eyebrow {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: rgba(37,99,235,0.12); border: 1px solid rgba(37,99,235,0.3);
+    border-radius: 100px; padding: 0.38rem 1rem;
+    font-size: 0.78rem; font-weight: 600; color: var(--blue-light); margin-bottom: 1.2rem;
+  }
+  h1 { font-family: 'Sora', sans-serif; font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 800; color: white; margin-bottom: 0.75rem; }
+  .updated { font-size: 0.85rem; color: var(--text-muted); }
+
+  .content-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2.5rem;
+  }
+
+  h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    margin: 2.2rem 0 1rem;
+  }
+  h2:first-child { margin-top: 0; }
+
+  p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem; }
+
+  ul { color: var(--text-secondary); font-size: 0.95rem; margin: 0 0 1rem 1.2rem; display: flex; flex-direction: column; gap: 0.5rem; }
+  ul li::marker { color: var(--blue-light); }
+
+  a.inline-link { color: var(--blue-light); text-decoration: none; }
+  a.inline-link:hover { text-decoration: underline; }
+
+  footer {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.82rem;
+  }
+  footer a { color: var(--blue-light); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    nav { padding: 0 1.2rem; }
+    main { padding: 110px 1.2rem 80px; }
+    .content-card { padding: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="cademi.html" class="logo">
+    <svg class="logo-icon" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="38" height="38" rx="10" fill="#2563EB"/>
+      <path d="M26 12.5C24 10.5 21.2 9.5 18 9.5C12.2 9.5 7.5 14.2 7.5 20C7.5 25.8 12.2 30.5 18 30.5C21.2 30.5 24 29.5 26 27.5" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M22 19L25.5 22.5L30.5 16" stroke="#93C5FD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="logo-wordmark">Cade<span>mi</span></span>
+  </a>
+  <a href="cademi.html" class="btn-back">← Back to Home</a>
+</nav>
+
+<main>
+  <div class="page-header">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 15, 2026</p>
+  </div>
+
+  <div class="content-card">
+    <h2>1. Introduction</h2>
+    <p>Cademi Technologies Ltd ("Cademi", "we", "us", or "our") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our AI-powered learning platform.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We may collect the following categories of information:</p>
+    <ul>
+      <li>Account information such as your name, email address, and password.</li>
+      <li>Learning activity data, including courses enrolled, deliverables submitted, and AI assessment results.</li>
+      <li>Technical data such as IP address, browser type, device information, and usage patterns.</li>
+      <li>Payment information when you subscribe to a paid plan, processed securely through our payment partners.</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the information we collect to operate and improve Cademi, including to personalize your learning path, generate AI project briefs, assess submitted deliverables, issue competency certificates, communicate with you about your account, and maintain the security and integrity of our platform.</p>
+
+    <h2>4. AI Processing of Your Work</h2>
+    <p>When you submit a deliverable for assessment, our AI systems analyze the content to generate feedback, scores, and competency certificates. Submitted work may also be used in anonymized and aggregated form to improve our assessment models, unless you opt out in your account settings.</p>
+
+    <h2>5. Sharing of Information</h2>
+    <p>We do not sell your personal information. We may share information with trusted service providers who help us operate the platform (such as cloud hosting and payment processing partners), or when required by law.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>We retain your personal information for as long as your account remains active, or as needed to provide you services, comply with our legal obligations, resolve disputes, and enforce our agreements.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on your location, you may have the right to access, correct, delete, or export your personal data. You may exercise these rights by contacting us at the email address below.</p>
+
+    <h2>8. Security</h2>
+    <p>We implement industry-standard technical and organizational measures, including encryption and access controls, to protect your information against unauthorized access, alteration, or disclosure.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>Cademi is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of material changes by posting the new policy on this page and updating the "Last updated" date above.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, please contact us at <a class="inline-link" href="mailto:hello@cademi.ai">hello@cademi.ai</a> or write to us at No. 12 Garki Area 4, Abuja, Nigeria.</p>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Cademi Technologies Ltd. All rights reserved. &nbsp;|&nbsp; <a href="terms-of-use.html">Terms of Use</a></p>
+</footer>
+
+</body>
+</html>
